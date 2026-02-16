@@ -8,12 +8,9 @@ A comprehensive tool for analyzing customer reviews using LLMs and data processi
 - **src/**: Source code organized by functionality
   - **config/**: Configuration and prompts
   - **nodes/**: Workflow nodes for processing steps
-  - **graph/**: Workflow graph definitions
   - **utils/**: Utility functions
-  - **models/**: Data schemas and models
+
 - **app/**: Streamlit web application
-- **notebooks/**: Jupyter notebooks for experimentation
-- **tests/**: Unit tests
 
 ## Installation
 
