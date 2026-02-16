@@ -1,0 +1,81 @@
+ID,Name,Review,Rating
+1,Tanvi Joshi,"Access controls are well defined, however periodic reviews are often delayed. (Case reference 1)",2.8
+2,Anjali Nair,Policies are comprehensive but outdated in certain operational areas. (Case reference 2),4.5
+3,Arjun Patel,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 3)",1.7
+4,Karan Singh,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 4),2.0
+5,Siddharth Malhotra,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 5)",4.2
+6,Rohit Mehta,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 6),2.5
+7,Rohit Mehta,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 7),2.6
+8,Siddharth Malhotra,Policies are comprehensive but outdated in certain operational areas. (Case reference 8),2.4
+9,Riya Kapoor,"Data quality checks are implemented, but ownership accountability remains unclear. (Case reference 9)",2.5
+10,Rahul Khanna,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 10),3.5
+11,Tanvi Joshi,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 11)",4.1
+12,Tanvi Joshi,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 12)",3.5
+13,Karan Singh,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 13)",4.2
+14,Riya Kapoor,Policies are comprehensive but outdated in certain operational areas. (Case reference 14),4.5
+15,Rahul Khanna,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 15)",4.9
+16,Vikram Rao,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 16)",3.9
+17,Divya Menon,"Metadata management is effective, though automation could further improve efficiency. (Case reference 17)",3.6
+18,Sneha Iyer,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 18),3.5
+19,Rohit Mehta,Policies are comprehensive but outdated in certain operational areas. (Case reference 19),3.3
+20,Arjun Patel,"Access controls are well defined, however periodic reviews are often delayed. (Case reference 20)",1.7
+21,Neha Kulkarni,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 21),4.4
+22,Karan Singh,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 22),3.5
+23,Sneha Iyer,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 23)",2.9
+24,Rahul Khanna,"Access controls are well defined, however periodic reviews are often delayed. (Case reference 24)",2.7
+25,Vikram Rao,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 25),4.7
+26,Vikram Rao,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 26),3.6
+27,Rohit Mehta,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 27)",1.9
+28,Karan Singh,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 28)",4.2
+29,Neha Kulkarni,"Metadata management is effective, though automation could further improve efficiency. (Case reference 29)",2.7
+30,Divya Menon,"Access controls are well defined, however periodic reviews are often delayed. (Case reference 30)",4.2
+31,Arjun Patel,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 31)",1.6
+32,Tanvi Joshi,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 32),1.7
+33,Neha Kulkarni,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 33),2.1
+34,Siddharth Malhotra,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 34)",3.8
+35,Tanvi Joshi,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 35)",2.2
+36,Arjun Patel,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 36),4.0
+37,Rahul Khanna,"Metadata management is effective, though automation could further improve efficiency. (Case reference 37)",2.5
+38,Riya Kapoor,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 38)",4.1
+39,Tanvi Joshi,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 39),3.2
+40,Pooja Desai,Policies are comprehensive but outdated in certain operational areas. (Case reference 40),2.7
+41,Karan Singh,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 41),1.6
+42,Divya Menon,"Metadata management is effective, though automation could further improve efficiency. (Case reference 42)",3.8
+43,Divya Menon,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 43)",3.0
+44,Karan Singh,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 44),4.3
+45,Riya Kapoor,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 45),2.3
+46,Sneha Iyer,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 46),3.4
+47,Isha Banerjee,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 47),3.0
+48,Vikram Rao,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 48),1.8
+49,Isha Banerjee,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 49),1.6
+50,Anjali Nair,"Data quality checks are implemented, but ownership accountability remains unclear. (Case reference 50)",3.0
+51,Rohit Mehta,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 51),1.5
+52,Rohit Mehta,"Data quality checks are implemented, but ownership accountability remains unclear. (Case reference 52)",3.3
+53,Divya Menon,"Metadata management is effective, though automation could further improve efficiency. (Case reference 53)",3.3
+54,Neha Kulkarni,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 54)",3.3
+55,Vikram Rao,"Data quality checks are implemented, but ownership accountability remains unclear. (Case reference 55)",2.0
+56,Tanvi Joshi,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 56)",4.3
+57,Anjali Nair,Policies are comprehensive but outdated in certain operational areas. (Case reference 57),3.4
+58,Riya Kapoor,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 58),4.7
+59,Karan Singh,"Metadata management is effective, though automation could further improve efficiency. (Case reference 59)",4.6
+60,Rohit Mehta,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 60),4.0
+61,Amit Sharma,Policies are comprehensive but outdated in certain operational areas. (Case reference 61),2.1
+62,Riya Kapoor,Policies are comprehensive but outdated in certain operational areas. (Case reference 62),2.5
+63,Siddharth Malhotra,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 63),2.2
+64,Riya Kapoor,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 64)",4.5
+65,Siddharth Malhotra,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 65)",3.4
+66,Isha Banerjee,Audit mechanisms exist but are not followed rigorously in day-to-day operations. (Case reference 66),3.8
+67,Amit Sharma,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 67)",1.9
+68,Rahul Khanna,"Metadata management is effective, though automation could further improve efficiency. (Case reference 68)",1.6
+69,Rohit Mehta,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 69),2.5
+70,Divya Menon,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 70)",1.7
+71,Siddharth Malhotra,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 71)",4.7
+72,Arjun Patel,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 72),3.6
+73,Karan Singh,"Data quality checks are implemented, but ownership accountability remains unclear. (Case reference 73)",3.9
+74,Siddharth Malhotra,"Data lineage tracking is available, but reporting lacks sufficient granularity. (Case reference 74)",4.0
+75,Neha Kulkarni,"Roles and responsibilities are defined, though cross-team coordination needs improvement. (Case reference 75)",3.3
+76,Divya Menon,Data governance policies are clearly documented but lack consistent enforcement across teams. (Case reference 76),3.9
+77,Anjali Nair,Review workflows are transparent but heavily dependent on manual interventions. (Case reference 77),2.4
+78,Sneha Iyer,Policies are comprehensive but outdated in certain operational areas. (Case reference 78),3.2
+79,Vikram Rao,Policies are comprehensive but outdated in certain operational areas. (Case reference 79),3.2
+80,Neha Kulkarni,"Governance framework supports compliance, yet practical adoption varies by department. (Case reference 80)",1.8
