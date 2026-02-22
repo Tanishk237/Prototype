@@ -17,14 +17,10 @@ def load_csv(file_path):
     df = pd.read_csv(path)
 
     ids = df[CSV_COLUMNS["id"]].tolist()
-    names = df[CSV_COLUMNS["name"]].tolist()
     reviews = df[CSV_COLUMNS["review"]].astype(str).tolist()
-    ratings = df[CSV_COLUMNS["rating"]].tolist()
 
     return {
         "reviews": reviews,
         "ids": ids,
-        "names": names,
-        "ratings": ratings,
         "total_reviews": len(reviews)
     }

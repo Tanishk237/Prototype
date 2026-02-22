@@ -15,11 +15,23 @@ def run_pipeline(file_path):
         data["reviews"],
         data["ids"]
     )
+    
+    # Check if any reviews were successfully analyzed
+    if not analysis_results:
+        raise RuntimeError(
+            "FATAL: No reviews were successfully analyzed.\n"
+            "Possible causes:\n"
+            "  1. LLM API is not accessible (check GROQ_API_KEY in .env)\n"
+            "  2. LLM service is down\n"
+            "  3. All review texts are empty or invalid\n"
+            "Please check the error logs above and try again."
+        )
 
     print("Aggregating results...")
     aggregation = aggregate_results(
         analysis_results,
-        data["reviews"]
+        data["reviews"],
+        data["ids"]
     )
 
     df = aggregation["ratings_dataframe"]
@@ -34,8 +46,8 @@ def run_pipeline(file_path):
         "total_reviews": data["total_reviews"],
         "overall_ai_rating": aggregation["overall_ai_rating"],
         "weighted_rating": aggregation["weighted_rating"],
-        "rating_stats": aggregation["rating_stats"],
         "sentiment_stats": aggregation["sentiment_stats"],
+        "ratings_dataframe": aggregation["ratings_dataframe"],
         "outliers": outliers,
         "impact_analysis": impacts,
         "all_reviews": df[["id", "review_text", "ai_rating", "sentiment", "reasoning"]].to_dict("records")

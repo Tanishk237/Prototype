@@ -1,1 +1,1 @@
-# Downloadable Report generator node
+# Report generation functionality (placeholder for future use)

@@ -31,6 +31,5 @@ def analyze_impact(df):
     )
 
     return {
-        "most_influential_reviews": impacts_sorted[:10],
-        "least_influential_reviews": impacts_sorted[-10:]
+        "most_influential_reviews": impacts_sorted[:10]
     }
