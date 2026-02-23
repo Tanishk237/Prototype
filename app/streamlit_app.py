@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import tempfile
-
+from datetime import datetime
 from src.pipeline import run_pipeline
+from src.modules.report_generator import generate_pdf_report
 
 st.set_page_config(page_title="AI Review Analyzer", layout="wide")
 st.title("AI Review Analyzer")
@@ -120,3 +121,31 @@ if st.session_state.result:
             col3.metric("Impact Score", review["impact_score"])
         st.markdown("**AI Reasoning:**")
         st.write(review["reasoning"])
+    
+    st.divider()
+    st.subheader("Generate Report")
+    
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.write("Download a comprehensive PDF report with all statistics, outliers, and influential reviews.")
+    
+    with col2:
+        if st.button("Generate PDF Report", use_container_width=True):
+            with st.spinner("Generating PDF report..."):
+                try:
+                    pdf_path = generate_pdf_report(result)
+                    
+                    with open(pdf_path, "rb") as pdf_file:
+                        pdf_data = pdf_file.read()
+                    
+                    st.download_button(
+                        label="Download PDF Report",
+                        data=pdf_data,
+                        file_name=f"review_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf",
+                        mime="application/pdf",
+                        use_container_width=True
+                    )
+                    
+                    st.success("PDF report generated successfully!")
+                except Exception as e:
+                    st.error(f"Error generating PDF: {str(e)}")
